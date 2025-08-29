@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lifeguard AI Agent – Emergency Wristband</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #222;
+    }
+    header {
+      background: #e63946;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    header h3 {
+      margin: 5px 0 0;
+      color: #ffeaa7;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+      max-width: 300px;
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 20px;
+      color: #1d3557;
+    }
+    .card ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .components {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    .component {
+      background: #fff;
+      padding: 10px;
+      border-radius: 8px;
+      width: 180px;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+    .component img {
+      width: 100px;
+      height: 100px;
+    }
+    .diagram {
+      margin: 30px auto;
+      text-align: center;
+    }
+    .diagram img {
+      width: 80px;
+      margin: 0 15px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lifeguard AI Agent – Emergency Wristband</h1>
+    <h3>Tourism Safety Project</h3>
+  </header>
+
+  <div class="container">
+    <!-- Problem -->
+    <div class="card">
+      <h2>Problem</h2>
+      <ul>
+        <li>Tourists face drowning, falls, disasters</li>
+        <li>Cannot always shout or use phones</li>
+      </ul>
+         </div>
+
+    <!-- Solution -->
+    <div class="card">
+      <h2>Solution</h2>
+      <ul>
+        <li>Smart wristband detects danger</li>
+        <li>Siren + Strobe alerts nearby people</li>
+        <li>Sends SOS to lifeguards (no mobile needed)</li>
+      </ul>
+      </div>
+
+    <!-- Core Functions -->
+    <div class="card">
+      <h2>Core Functions</h2>
+        <li>Pre-alert vibration</li>
+        <li>Siren time limit</li>
+        <li>Multi-sensor confirmation</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- System Components -->
+  <h2 style="text-align:center; margin-top:20px;">System Components</h2>
+  <div class="components">
+    <div class="component">
+           <p><b>Wristband</b></p>
+      <small>Sensors, Siren, Strobe, Waterproof</small>
+    </div>
+    <div class="component">
+            <p><b>Rescue Pod</b></p>
+      <small>Solar powered, Loudspeaker + Beacon</small>
+    </div>
+    <div class="component">
+      
